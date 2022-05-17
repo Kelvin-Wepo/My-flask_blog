@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+<div class="container-fluid pt-2" style="background-image: url(../static/bg.jpeg);background-repeat: no-repeat;background-size: cover;text-align: center;font-family: 'Langar', cursive;">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <h2>Add Quote</h2>
+            {{ wtf.quick_form(form)}}
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+{% endblock %}
