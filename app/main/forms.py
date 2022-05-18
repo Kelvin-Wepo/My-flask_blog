@@ -12,5 +12,5 @@ class PostForm(FlaskForm):
     submit = SubmitField('Submit')
     
 class CommentForm(FlaskForm):
-    comment = TextAreaField('write a comment',validators=[InputRequired()])
+    comment = TextAreaField('Leave a feadback',validators=[InputRequired()])
     submit = SubmitField('comment')
