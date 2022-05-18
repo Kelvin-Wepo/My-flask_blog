@@ -1,4 +1,4 @@
-export SECRET_KEY='Kwepo1234'
+export SECRET_KEY='Zozanation12345'
 # export APP_SETTINGS="config.DevelopmentConfig"
 
 #  export DATABASE_URL='postgresql+psycopg2://moringa:access@localhost/blog'
